@@ -1773,3 +1773,25 @@ a {
   border-color: #FBF3ED!important;
 }
 
+.loading-spinner {
+  background: #333;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 190px;
+  left: 0;
+  overflow: hidden;
+  display: none;
+  z-index: 99999;
+}
+
+.loading-spinner.active {
+  display: block;
+}
+
+#hourglass { /* centraliza no meio da tela */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -32px 0 0 -32px;
+}
