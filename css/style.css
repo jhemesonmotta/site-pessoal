@@ -1759,7 +1759,15 @@ a {
 }
 
 .ajusta-msg-box{
-  margin-top: -170px!important;
+  margin-top: 35px;
+  margin-bottom: 100px;
+}
+
+@media(max-width: 425px){
+  .ajusta-msg-box{
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
 }
 
 .btn-primary:hover {
